@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/GetUllrichorDieTrying/discord-bot-bones#readme",
   "dependencies": {
+    "@discordjs/builders": "^0.15.0",
+    "@discordjs/rest": "^0.5.0",
+    "discord-api-types": "^0.36.0",
     "discord.js": "^13.8.1",
     "dotenv": "^16.0.1",
     "eslint": "^8.19.0"

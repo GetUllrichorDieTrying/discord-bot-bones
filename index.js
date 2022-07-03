@@ -12,4 +12,14 @@ client.once('ready', () => {
   console.log('READY');
 });
 
+client.on('interactionCreate', async (interaction) => {
+  if (!interaction.isCommand()) return;
+
+  const { commandName } = interaction;
+
+  if (commandName === 'ping') {
+    await interaction.reply('PONG ROBLOX');
+  }
+});
+
 client.login(token);
