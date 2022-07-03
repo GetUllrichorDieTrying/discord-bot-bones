@@ -1,0 +1,25 @@
+{
+  "name": "discord-bot-bones",
+  "version": "1.0.0",
+  "description": "Basic Discord bot bones using discord.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GetUllrichorDieTrying/discord-bot-bones.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GetUllrichorDieTrying/discord-bot-bones/issues"
+  },
+  "homepage": "https://github.com/GetUllrichorDieTrying/discord-bot-bones#readme",
+  "dependencies": {
+    "discord.js": "^13.8.1",
+    "dotenv": "^16.0.1",
+    "eslint": "^8.19.0"
+  }
+}
