@@ -12,8 +12,11 @@ const token = process.env.DISCORD_TOKEN;
 
 const commands = [
   new SlashCommandBuilder()
-    .setName('ping')
-    .setDescription('Replies with pong!'),
+    .setName('roblox')
+    .setDescription('Replies with ...!'),
+  new SlashCommandBuilder()
+    .setName('pingpat')
+    .setDescription('Pings Pat, the master of ROBLOX'),
 ].map((command) => command.toJSON());
 
 const rest = new REST({ version: '9' }).setToken(token);
